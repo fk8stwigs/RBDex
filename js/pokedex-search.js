@@ -32,7 +32,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
 		buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
 		buf += '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' + Dex.escapeHTML(this.$('.searchbox').val() || '') + '" autocomplete="off" autofocus placeholder="Search Pok&eacute;mon, moves, abilities, items, types, or more" /></div>';
 		if (fragment === '') {
-			buf += '<p class="buttonbar"><button class="button"><strong>Pok&eacute;dex Search</strong></button> <button name="lucky" class="button">I\'m Feeling Lucky</button></p>';
+			buf += '<p class="buttonbar"><button class="button"><strong>Pok&eacute;dex Search</strong></button> </p>';
 		}
 		buf += '</form>';
 		buf += '<div class="results"></div></div>';
@@ -239,12 +239,6 @@ var PokedexSearchPanel = Panels.Panel.extend({
 			e.preventDefault();
 			e.stopPropagation();
 			this.app.go(e.target.value, this, true);
-			return;
-		}
-		if (e.target.tagName === 'BUTTON' && e.target.name === 'lucky') {
-			e.preventDefault();
-			e.stopPropagation();
-			alert(['That\'s pretty cool.','Your mom\'s feeling lucky.','I see.','If you feel lucky for more than four hours, perhaps you should see a doctor.'][Math.floor(Math.random()*4)]);
 			return;
 		}
 		var scrollLoc = this.$el.scrollTop();
