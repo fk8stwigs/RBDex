@@ -348,6 +348,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			return 'level-up with ' + evo.evoMove + condition;
 		case 'trade':
 			return 'trade';
+		case 'levelAndCondition':
+			return 'level ' + evo.evoLevel + ' ' + evo.evoCondition;
 		case 'other':
 			return evo.evoCondition;
 		default:
