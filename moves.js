@@ -3019,14 +3019,13 @@ exports.BattleMovedex = {
         category: "Status",
         name: "Defend Order",
         pp: 10,
-        priority: 0,
+        priority: 4,
         flags: {
-            snatch: 1
+            noassist: 1,
+            failcopycat: 1
         },
-        boosts: {
-            def: 1,
-            spd: 1
-        },
+        stallingMove: true,
+        volatileStatus: "protect",
         secondary: null,
         target: "self",
         type: "Bug",
@@ -3092,8 +3091,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Cool",
-        desc: "Lowers the target's evasiveness by 1 stage. If this move is successful and whether or not the target's evasiveness was affected, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side. Ignores a target's substitute, although a substitute will still block the lowering of evasiveness. If there is a terrain active and this move is successful, the terrain will be cleared.",
-        shortDesc: "-1 evasion; clears terrain and hazards on both sides."
+        desc: "Lowers the target's evasiveness by 1 stage. If this move is successful and whether or not the target's evasiveness was affected, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side. Ignores a target's substitute, although a substitute will still block the lowering of evasiveness.",
+        shortDesc: "-1 evasion; clears hazards on both sides."
     },
     destinybond: {
         num: 194,
@@ -12472,7 +12471,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Recover",
-        pp: 5,
+        pp: 10,
         priority: 0,
         flags: {
             snatch: 1,
