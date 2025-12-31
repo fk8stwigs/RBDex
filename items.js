@@ -3997,7 +3997,7 @@ exports.BattleItems = {
 		num: 225,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "If held by a Latias/Latios, its Dragon- and Psychic-type moves have 1.2x power."
+		desc: "If held by a Latias/Latios, its Special Attack and Special Defense are boosted one stage."
 	},
 	spelltag: {
 		name: "Spell Tag",
