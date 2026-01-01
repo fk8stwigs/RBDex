@@ -112,7 +112,7 @@ exports.BattleItems = {
 		},
 		num: 162,
 		gen: 3,
-		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpD Nature. Single use."
+		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpD Nature. Single use. If held while using Natural Gift, the move will be 80 power Dragon."
 	},
 	airballoon: {
 		name: "Air Balloon",
@@ -179,7 +179,7 @@ exports.BattleItems = {
 		},
 		num: 205,
 		gen: 3,
-		desc: "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use."
+		desc: "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Ground."
 	},
 	armorfossil: {
 		name: "Armor Fossil",
@@ -202,7 +202,7 @@ exports.BattleItems = {
 		},
 		num: 153,
 		gen: 3,
-		desc: "Holder is cured if it is frozen. Single use."
+		desc: "Holder is cured if it is frozen. Single use. If held while using Natural Gift, the move will be 80 power Ice."
 	},
 	assaultvest: {
 		name: "Assault Vest",
@@ -246,7 +246,7 @@ exports.BattleItems = {
 		},
 		num: 199,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Steel-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Steel-type attack. Single use. If held while using Natural Gift, the move will be 80 power Steel."
 	},
 	banettite: {
 		name: "Banettite",
@@ -290,7 +290,7 @@ exports.BattleItems = {
 		num: 183,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 100 power Electric."
 	},
 	berryjuice: {
 		name: "Berry Juice",
@@ -422,7 +422,7 @@ exports.BattleItems = {
 		num: 165,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Fire."
 	},
 	blunderpolicy: {
 		name: "Blunder Policy",
@@ -576,7 +576,7 @@ exports.BattleItems = {
 		},
 		num: 195,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Rock-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Rock-type attack. Single use. If held while using Natural Gift, the move will be 80 power Rock."
 	},
 	cheriberry: {
 		name: "Cheri Berry",
@@ -588,7 +588,7 @@ exports.BattleItems = {
 		},
 		num: 149,
 		gen: 3,
-		desc: "Holder cures itself if it is paralyzed. Single use."
+		desc: "Holder cures itself if it is paralyzed. Single use. If held while using Natural Gift, the move will be 80 power Fire."
 	},
 	cherishball: {
 		name: "Cherish Ball",
@@ -609,7 +609,7 @@ exports.BattleItems = {
 		},
 		num: 150,
 		gen: 3,
-		desc: "Holder wakes up if it is asleep. Single use."
+		desc: "Holder wakes up if it is asleep. Single use. If held while using Natural Gift, the move will be 80 power Water."
 	},
 	chilanberry: {
 		name: "Chilan Berry",
@@ -621,7 +621,7 @@ exports.BattleItems = {
 		},
 		num: 200,
 		gen: 4,
-		desc: "Halves damage taken from a Normal-type attack. Single use."
+		desc: "Halves damage taken from a Normal-type attack. Single use. If held while using Natural Gift, the move will be 80 power Normal."
 	},
 	chilldrive: {
 		name: "Chill Drive",
@@ -689,7 +689,7 @@ exports.BattleItems = {
 		},
 		num: 189,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Fighting-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Fighting-type attack. Single use. If held while using Natural Gift, the move will be 80 power Fighting."
 	},
 	clawfossil: {
 		name: "Claw Fossil",
@@ -733,7 +733,7 @@ exports.BattleItems = {
 		},
 		num: 192,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Flying-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Flying-type attack. Single use. If held while using Natural Gift, the move will be 80 power Flying."
 	},
 	colburberry: {
 		name: "Colbur Berry",
@@ -745,7 +745,7 @@ exports.BattleItems = {
 		},
 		num: 198,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Dark-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Dark-type attack. Single use. If held while using Natural Gift, the move will be 80 power Dark."
 	},
 	cornnberry: {
 		name: "Cornn Berry",
@@ -759,7 +759,7 @@ exports.BattleItems = {
 		num: 175,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Bug."
 	},
 	coverfossil: {
 		name: "Cover Fossil",
@@ -804,7 +804,7 @@ exports.BattleItems = {
 		num: 210,
 		gen: 4,
 		isNonstandard: "Unobtainable",
-		desc: "Holder moves first in its priority bracket when at 1/4 max HP or less. Single use."
+		desc: "Holder moves first in its priority bracket when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Ghost."
 	},
 	damprock: {
 		name: "Damp Rock",
@@ -1058,7 +1058,7 @@ exports.BattleItems = {
 		num: 182,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 100 power Water."
 	},
 	duskball: {
 		name: "Dusk Ball",
@@ -1190,7 +1190,7 @@ exports.BattleItems = {
 		num: 208,
 		gen: 3,
 		isNonstandard: "Unobtainable",
-		desc: "Restores 1/4 max HP after holder is hit by a supereffective move. Single use."
+		desc: "Restores 1/4 max HP after holder is hit by a supereffective move. Single use. If held while using Natural Gift, the move will be 100 power Bug."
 	},
 	eviolite: {
 		name: "Eviolite",
@@ -1298,7 +1298,7 @@ exports.BattleItems = {
 		},
 		num: 159,
 		gen: 3,
-		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Atk Nature. Single use."
+		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Atk Nature. Single use. If held while using Natural Gift, the move will be 80 power Bug."
 	},
 	firegem: {
 		name: "Fire Gem",
@@ -1560,7 +1560,7 @@ exports.BattleItems = {
 		},
 		num: 202,
 		gen: 3,
-		desc: "Raises holder's Defense by 1 stage when at 1/4 max HP or less. Single use."
+		desc: "Raises holder's Defense by 1 stage when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Ice."
 	},
 	garchompite: {
 		name: "Garchompite",
@@ -1714,7 +1714,7 @@ exports.BattleItems = {
 		onEat: false,
 		num: 173,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Flying."
 	},
 	gripclaw: {
 		name: "Grip Claw",
@@ -1802,7 +1802,7 @@ exports.BattleItems = {
 		},
 		num: 197,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Dragon-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Dragon-type attack. Single use. If held while using Natural Gift, the move will be 80 power Dragon."
 	},
 	hardstone: {
 		name: "Hard Stone",
@@ -1884,7 +1884,7 @@ exports.BattleItems = {
 		onEat: false,
 		num: 172,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Ground."
 	},
 	houndoominite: {
 		name: "Houndoominite",
@@ -1907,7 +1907,7 @@ exports.BattleItems = {
 		},
 		num: 163,
 		gen: 3,
-		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Def Nature. Single use."
+		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Def Nature. Single use. If held while using Natural Gift, the move will be 80 power Dark."
 	},
 	icegem: {
 		name: "Ice Gem",
@@ -2026,7 +2026,7 @@ exports.BattleItems = {
 		num: 211,
 		gen: 4,
 		isNonstandard: "Unobtainable",
-		desc: "If holder is hit by a physical move, attacker loses 1/8 of its max HP. Single use."
+		desc: "If holder is hit by a physical move, attacker loses 1/8 of its max HP. Single use. If held while using Natural Gift, the move will be 100 power Dragon."
 	},
 	jawfossil: {
 		name: "Jaw Fossil",
@@ -2049,7 +2049,7 @@ exports.BattleItems = {
 		},
 		num: 196,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Ghost-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Ghost-type attack. Single use. If held while using Natural Gift, the move will be 80 power Ghost."
 	},
 	kebiaberry: {
 		name: "Kebia Berry",
@@ -2061,7 +2061,7 @@ exports.BattleItems = {
 		},
 		num: 190,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Poison-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Poison-type attack. Single use. If held while using Natural Gift, the move will be 80 power Poison."
 	},
 	keeberry: {
 		name: "Kee Berry",
@@ -2074,7 +2074,7 @@ exports.BattleItems = {
 		num: 687,
 		gen: 6,
 		isNonstandard: "Unobtainable",
-		desc: "Raises holder's Defense by 1 stage after it is hit by a physical attack. Single use."
+		desc: "Raises holder's Defense by 1 stage after it is hit by a physical attack. Single use. If held while using Natural Gift, the move will be 100 power Fairy."
 	},
 	kelpsyberry: {
 		name: "Kelpsy Berry",
@@ -2087,7 +2087,7 @@ exports.BattleItems = {
 		onEat: false,
 		num: 170,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Fighting."
 	},
 	kangaskhanite: {
 		name: "Kangaskhanite",
@@ -2146,7 +2146,7 @@ exports.BattleItems = {
 		},
 		num: 206,
 		gen: 3,
-		desc: "Holder gains the Focus Energy effect when at 1/4 max HP or less. Single use."
+		desc: "Holder gains the Focus Energy effect when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Flying."
 	},
 	latiasite: {
 		name: "Latiasite",
@@ -2227,7 +2227,7 @@ exports.BattleItems = {
 		},
 		num: 154,
 		gen: 3,
-		desc: "Restores 10 PP to the first of the holder's moves to reach 0 PP. Single use."
+		desc: "Restores 10 PP to the first of the holder's moves to reach 0 PP. Single use. If held while using Natural Gift, the move will be 80 power Fighting."
 	},
 	levelball: {
 		name: "Level Ball",
@@ -2247,7 +2247,7 @@ exports.BattleItems = {
 		},
 		num: 201,
 		gen: 3,
-		desc: "Raises holder's Attack by 1 stage when at 1/4 max HP or less. Single use."
+		desc: "Raises holder's Attack by 1 stage when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Grass."
 	},
 	lifeorb: {
 		name: "Life Orb",
@@ -2357,7 +2357,7 @@ exports.BattleItems = {
 		onAfterSetStatusPriority: -1,
 		num: 157,
 		gen: 3,
-		desc: "Holder cures itself if it has a non-volatile status or is confused. Single use."
+		desc: "Holder cures itself if it has a non-volatile status or is confused. Single use. If held while using Natural Gift, the move will be 80 power Flying."
 	},
 	luminousmoss: {
 		name: "Luminous Moss",
@@ -2478,7 +2478,7 @@ exports.BattleItems = {
 		},
 		num: 161,
 		gen: 3,
-		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Spe Nature. Single use."
+		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -Spe Nature. Single use. If held while using Natural Gift, the move will be 80 power Ghost."
 	},
 	magostberry: {
 		name: "Magost Berry",
@@ -2492,7 +2492,7 @@ exports.BattleItems = {
 		num: 176,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Rock."
 	},
 	mail: {
 		name: "Mail",
@@ -2534,7 +2534,7 @@ exports.BattleItems = {
 		num: 688,
 		gen: 6,
 		isNonstandard: "Unobtainable",
-		desc: "Raises holder's Sp. Def by 1 stage after it is hit by a special attack. Single use."
+		desc: "Raises holder's Sp. Def by 1 stage after it is hit by a special attack. Single use. If held while using Natural Gift, the move will be 100 power Dark."
 	},
 	marshadiumz: {
 		name: "Marshadium Z",
@@ -2695,7 +2695,7 @@ exports.BattleItems = {
 		num: 209,
 		gen: 4,
 		isNonstandard: "Unobtainable",
-		desc: "Holder's next move has 1.2x accuracy when at 1/4 max HP or less. Single use."
+		desc: "Holder's next move has 1.2x accuracy when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Rock."
 	},
 	mimikiumz: {
 		name: "Mimikium Z",
@@ -2806,7 +2806,7 @@ exports.BattleItems = {
 		num: 166,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Water."
 	},
 	nestball: {
 		name: "Nest Ball",
@@ -2847,7 +2847,7 @@ exports.BattleItems = {
 		num: 178,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Dragon."
 	},
 	normalgem: {
 		name: "Normal Gem",
@@ -2878,7 +2878,7 @@ exports.BattleItems = {
 		},
 		num: 184,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Fire-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Fire-type attack. Single use. If held while using Natural Gift, the move will be 80 power Fire."
 	},
 	oddincense: {
 		name: "Odd Incense",
@@ -2913,7 +2913,7 @@ exports.BattleItems = {
 		},
 		num: 155,
 		gen: 3,
-		desc: "Restores 10 HP when at 1/2 max HP or less. Single use."
+		desc: "Restores 10 HP when at 1/2 max HP or less. Single use. If held while using Natural Gift, the move will be 80 power Poison."
 	},
 	ovalstone: {
 		name: "Oval Stone",
@@ -2937,7 +2937,7 @@ exports.BattleItems = {
 		num: 180,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Steel."
 	},
 	parkball: {
 		name: "Park Ball",
@@ -2958,7 +2958,7 @@ exports.BattleItems = {
 		},
 		num: 185,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Water-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Water-type attack. Single use. If held while using Natural Gift, the move will be 80 power Water."
 	},
 	payapaberry: {
 		name: "Payapa Berry",
@@ -2970,7 +2970,7 @@ exports.BattleItems = {
 		},
 		num: 193,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Psychic-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Psychic-type attack. Single use. If held while using Natural Gift, the move will be 80 power Psychic."
 	},
 	pechaberry: {
 		name: "Pecha Berry",
@@ -2982,7 +2982,7 @@ exports.BattleItems = {
 		},
 		num: 151,
 		gen: 3,
-		desc: "Holder is cured if it is poisoned. Single use."
+		desc: "Holder is cured if it is poisoned. Single use. If held while using Natural Gift, the move will be 80 power Electric."
 	},
 	persimberry: {
 		name: "Persim Berry",
@@ -2994,7 +2994,7 @@ exports.BattleItems = {
 		},
 		num: 156,
 		gen: 3,
-		desc: "Holder is cured if it is confused. Single use."
+		desc: "Holder is cured if it is confused. Single use. If held while using Natural Gift, the move will be 80 power Ground."
 	},
 	petayaberry: {
 		name: "Petaya Berry",
@@ -3006,7 +3006,7 @@ exports.BattleItems = {
 		},
 		num: 204,
 		gen: 3,
-		desc: "Raises holder's Sp. Atk by 1 stage when at 1/4 max HP or less. Single use."
+		desc: "Raises holder's Sp. Atk by 1 stage when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Poison."
 	},
 	pidgeotite: {
 		name: "Pidgeotite",
@@ -3055,7 +3055,7 @@ exports.BattleItems = {
 		num: 168,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Grass."
 	},
 	pinsirite: {
 		name: "Pinsirite",
@@ -3153,7 +3153,7 @@ exports.BattleItems = {
 		onEat: false,
 		num: 169,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Ice."
 	},
 	poweranklet: {
 		name: "Power Anklet",
@@ -3352,7 +3352,7 @@ exports.BattleItems = {
 		onEat: false,
 		num: 171,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Poison."
 	},
 	quickball: {
 		name: "Quick Ball",
@@ -3397,7 +3397,7 @@ exports.BattleItems = {
 		num: 177,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Ghost."
 	},
 	rarebone: {
 		name: "Rare Bone",
@@ -3419,7 +3419,7 @@ exports.BattleItems = {
 		},
 		num: 152,
 		gen: 3,
-		desc: "Holder is cured if it is burned. Single use."
+		desc: "Holder is cured if it is burned. Single use. If held while using Natural Gift, the move will be 80 power Grass."
 	},
 	razorclaw: {
 		name: "Razor Claw",
@@ -3458,7 +3458,7 @@ exports.BattleItems = {
 		num: 164,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 80 power Steel."
 	},
 	reapercloth: {
 		name: "Reaper Cloth",
@@ -3519,7 +3519,7 @@ exports.BattleItems = {
 		},
 		num: 187,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Grass-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Grass-type attack. Single use. If held while using Natural Gift, the move will be 80 power Grass."
 	},
 	ringtarget: {
 		name: "Ring Target",
@@ -3634,7 +3634,7 @@ exports.BattleItems = {
 		},
 		num: 686,
 		gen: 6,
-		desc: "Halves damage taken from a supereffective Fairy-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Fairy-type attack. Single use. If held while using Natural Gift, the move will be 80 power Fairy."
 	},
 	rowapberry: {
 		name: "Rowap Berry",
@@ -3647,7 +3647,7 @@ exports.BattleItems = {
 		num: 212,
 		gen: 4,
 		isNonstandard: "Unobtainable",
-		desc: "If holder is hit by a special move, attacker loses 1/8 of its max HP. Single use."
+		desc: "If holder is hit by a special move, attacker loses 1/8 of its max HP. Single use. If held while using Natural Gift, the move will be 100 power Dark."
 	},
 	rustedshield: {
 		name: "Rusted Shield",
@@ -3727,7 +3727,7 @@ exports.BattleItems = {
 		},
 		num: 203,
 		gen: 3,
-		desc: "Raises holder's Speed by 1 stage when at 1/4 max HP or less. Single use."
+		desc: "Raises holder's Speed by 1 stage when at 1/4 max HP or less. Single use. If held while using Natural Gift, the move will be 100 power Fighting."
 	},
 	salamencite: {
 		name: "Salamencite",
@@ -3860,7 +3860,7 @@ exports.BattleItems = {
 		},
 		num: 191,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Ground-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Ground-type attack. Single use. If held while using Natural Gift, the move will be 80 power Ground."
 	},
 	silkscarf: {
 		name: "Silk Scarf",
@@ -3894,7 +3894,7 @@ exports.BattleItems = {
 		},
 		num: 158,
 		gen: 3,
-		desc: "Restores 1/4 max HP when at 1/2 max HP or less. Single use."
+		desc: "Restores 1/4 max HP when at 1/2 max HP or less. Single use. If held while using Natural Gift, the move will be 80 power Psychic."
 	},
 	skullfossil: {
 		name: "Skull Fossil",
@@ -4022,7 +4022,7 @@ exports.BattleItems = {
 		num: 179,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Dark."
 	},
 	splashplate: {
 		name: "Splash Plate",
@@ -4063,7 +4063,7 @@ exports.BattleItems = {
 		},
 		num: 207,
 		gen: 3,
-		desc: "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use."
+		desc: "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use. If held while using Natural Gift, the move will be 100 power Psychic."
 	},
 	starsweet: {
 		name: "Star Sweet",
@@ -4216,7 +4216,7 @@ exports.BattleItems = {
 		onEat: false,
 		num: 174,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Psychic."
 	},
 	tangaberry: {
 		name: "Tanga Berry",
@@ -4228,7 +4228,7 @@ exports.BattleItems = {
 		},
 		num: 194,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Bug-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Bug-type attack. Single use. If held while using Natural Gift, the move will be 80 power Bug."
 	},
 	tapuniumz: {
 		name: "Tapunium Z",
@@ -5515,7 +5515,7 @@ exports.BattleItems = {
 		},
 		num: 186,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Electric-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Electric-type attack. Single use. If held while using Natural Gift, the move will be 80 power Electric."
 	},
 	watergem: {
 		name: "Water Gem",
@@ -5573,7 +5573,7 @@ exports.BattleItems = {
 		num: 181,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 100 power Fire."
 	},
 	waveincense: {
 		name: "Wave Incense",
@@ -5613,7 +5613,7 @@ exports.BattleItems = {
 		num: 167,
 		gen: 3,
 		isNonstandard: "Past",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
+		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck. If held while using Natural Gift, the move will be 90 power Electric."
 	},
 	whippeddream: {
 		name: "Whipped Dream",
@@ -5657,7 +5657,7 @@ exports.BattleItems = {
 		},
 		num: 160,
 		gen: 3,
-		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpA Nature. Single use."
+		desc: "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpA Nature. Single use. If held while using Natural Gift, the move will be 80 power Rock."
 	},
 	wiseglasses: {
 		name: "Wise Glasses",
@@ -5680,7 +5680,7 @@ exports.BattleItems = {
 		},
 		num: 188,
 		gen: 4,
-		desc: "Halves damage taken from a supereffective Ice-type attack. Single use."
+		desc: "Halves damage taken from a supereffective Ice-type attack. Single use. If held while using Natural Gift, the move will be 80 power Ice."
 	},
 	zapplate: {
 		name: "Zap Plate",
