@@ -27,18 +27,6 @@ exports.BattleLearnsets = {
        facade: ["9M"],
        hiddenpower: ["9T"],
        secretpower: ["9T"],
-       skullbash: ["9E"],
-       charm: ["9E"],
-       petaldance: ["9E"],
-       magicalleaf: ["9E"],
-       grasswhistle: ["9E"],
-       ingrain: ["9E"],
-       naturepower: ["9E"],
-       leafstorm: ["9E"],
-       powerwhip: ["9E"],
-       sludge: ["9E"],
-       endure: ["9E"],
-       gigadrain: ["9E"],
       }
   },
   ivysaur: {
