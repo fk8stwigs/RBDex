@@ -7651,7 +7651,7 @@ exports.BattleMovedex = {
     },
     hydropump: {
         num: 56,
-        accuracy: 80,
+        accuracy: 85,
         basePower: 110,
         category: "Special",
         name: "Hydro Pump",
