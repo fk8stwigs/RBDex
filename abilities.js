@@ -1384,9 +1384,9 @@ exports.BattleAbilities = {
     name: 'Magma Armor',
     rating: 0.5,
     num: 40,
-    desc: 'This Pokemon cannot be struck by a critical hit and cannot be frozen.',
+    desc: 'This Pokemon cannot be struck by a critical hit and cannot be frozen. Gaining this Ability while frozen cures it.',
     shortDesc:
-      'This Pokemon cannot be struck by a critical hit and cannot be frozen. Gaining this Ability while frozen cures it.'
+      'This Pokemon cannot be struck by a critical hit and cannot be frozen.'
   },
   magnetpull: {
     flags: {},
